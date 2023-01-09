@@ -10,6 +10,9 @@ import android.view.View
 import android.widget.*
 import androidx.core.content.ContextCompat
 
+/**
+ * Quiz activity to show all questions and accept answers.
+ */
 
 class QuestionsActivity : AppCompatActivity(), View.OnClickListener {
     private var progressBar: ProgressBar?=null
